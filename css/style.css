@@ -1,0 +1,450 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+/* background-color: black; */
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.container{
+width: 100%;
+height: 730px;
+ /* background-color: antiquewhite;  */
+}
+.header{
+width: 100%;
+height: 70px;
+background-color: grey;
+border-bottom: 1px solid black;
+color: white;
+}
+.footer{
+  width: 100%;
+  height: 165px;
+  position: relative;
+  top: 20px;
+  background-color: grey;
+
+  color: white;
+  }
+.logo{
+width: 170px;
+height:70px ;
+/* background-color: blueviolet; */
+margin-left: 120px;
+padding-top: 17px;
+padding-left: 10px;
+
+}
+.mar{
+  width: 170px;
+  height:70px ;
+  /* background-color: blueviolet; */
+  margin-left: 120px;
+  padding-top: 17px;
+  padding-left: 10px;
+  
+  }
+li{
+list-style: none;
+display: inline;
+flex-direction: row;
+position: relative;
+left: 460px;
+bottom: 48px;
+padding: 2%;
+font-size: 20px;
+}
+a{
+text-decoration: none;
+  display: inline;
+ flex-direction: row;
+color: #fff;
+}
+a:hover{
+color: white;
+
+}
+button{
+    position: relative;
+    left: 80%;
+    bottom:102px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+  border: none;
+  border: 2px solid black;
+  color: grey;
+  background-color: #fff;
+}
+.hero{
+width: 100%;
+ height: 500px;
+  background-color:#fff;  
+display: flex;
+flex-direction: row;
+
+}
+.text{
+width:50%;
+
+height:500px ;
+background-color: #fff;
+}
+.pic{
+width: 50%;
+   /* background-color: aqua; */
+    height:500px ;
+    
+
+ }
+ 
+ .text h3{
+padding-left: 250px;
+padding-top: 180px;
+font-size: 35px;
+ }
+ span{
+padding-left: 30px;
+ }
+ .text h5{
+   position: relative;
+   top: 180px;
+   left: 320px;
+   font-size: 15px;
+ }
+ .text button{
+    position: relative;
+    left: 43%;
+    top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+   border-radius: 5px;
+  border: 2px solid black;
+  color: grey;
+  background-color: #fff;
+ }
+ .pic img{
+width: 530px;
+height: 500px;
+ }
+ .main{
+width: 100%;
+height:160px;
+background-color: aliceblue;
+display: flex;
+flex-direction: row;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+ }
+ .box1{
+width: 20%;
+  background-color: white;  
+height: 150px;
+clip-path: circle();
+position: relative;
+left: 320px;
+top: 7px; 
+
+
+ }
+ .box1:hover{
+background-color: black;
+color: white;
+
+ }
+ .box2:hover{
+    background-color: black;
+    color: white;
+    
+     }
+     .box3:hover{
+        background-color: black;
+        color: white;
+        
+         }
+ .box2{
+    top: 7px; 
+ width: 20%;
+background-color:#fff;
+height: 150px;
+clip-path: circle();
+position: relative;
+left: 250px; 
+}
+.box3{
+    top: 7px; 
+    width: 20%;
+    background-color: #fff;
+    height: 150px;
+    clip-path: circle();
+    position: relative;
+    left: 200px; 
+}
+.box1 h3{
+    padding-top: 70px;
+    padding-left: 100px;
+    font-size: 13px;
+}
+.box2 h3{
+
+    padding-top: 70px;
+    padding-left: 120px;
+    font-size: 13px;
+}
+.box3 h3{
+
+    padding-top: 70px;
+    padding-left: 120px;
+    font-size: 13px; 
+}
+.one{
+width: 100%;
+background-color: #fff;
+display: flex;
+flex-direction: row;
+
+
+}
+.two{
+width: 45%;
+/* background-color: crimson; */
+margin-top: 60px;
+
+
+}
+.three{
+width: 50%;
+ /* background-color: cornflowerblue;  */
+margin-left: 5%;
+height: 500px;
+margin-top: 60px;
+
+}
+.three img{
+height: 500px;
+width: 540px;
+
+}
+.four{
+  width: 100%;
+height: 270px;
+/* background-color: aquamarine; */
+margin-top: 30px;
+
+}
+.five{
+width: 70px;
+height:60px ;
+background-color: #fff;
+border-radius: 200px;
+border-left: 10px solid black;
+border-right: 2px solid black;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+}
+.four h5{
+padding-top: 20px;
+
+
+
+}
+.six{
+  width: 100%;
+  height:140px ;
+  /* background-color: blueviolet; */
+  border-top: 4px solid black;
+  margin-top: 15px;
+
+}
+.six p{
+padding-top: 20px;
+width: 90%;
+
+}
+.seven{
+  width: 100%;
+  /* background-color: chartreuse; */
+flex-direction: row;
+display: flex;
+ 
+}
+.eight{
+
+  width: 45%;
+  /* background-color: crimson; */
+  margin-top: 60px;
+  margin-left: 5%;
+
+}
+.nine{
+  width: 50%;
+ background-color: blue;
+  margin-top: 60px; 
+ 
+ height: 500px;
+ 
+
+}
+
+.nine img{
+height: 500px;
+width: 555px;
+      
+
+}
+.portfolio{
+width: 100%;
+height: 600px;
+/* background-color: aquamarine; */
+display: flex;
+flex-direction: row;
+
+
+}
+.img1{
+width: 48%;
+height: 450px;
+ /* background-color: antiquewhite;  */
+margin-top: 60px;
+ /* margin-right: 7%;  */
+
+}
+.img2{
+width: 48%;
+height: 450px;
+ /* background-color: blueviolet; */
+ margin-left: 3%; 
+margin-top: 60px;
+}
+.img1 h3{
+position: relative;
+bottom: 15px;
+font-size: 23px;
+left: 510px;
+
+}
+.img1 img{
+width: 100%;
+height: 350px;
+
+}
+.img2 img{
+  width: 100%;
+  height: 350px;
+  margin-top: 35px;
+}
+.img1 h4{
+font-size: 15px;
+margin-left: 200px;
+margin-top: 10px;
+
+
+
+}
+.img2 h4{
+  font-size: 15px;
+  margin-left: 200px;
+  margin-top: 10px;
+  
+  
+  }
+.img1 button{
+margin-top: 120px;
+margin-left: 50px;
+outline: none;
+border: none;
+background-color: black;
+font-size: 15px;
+
+
+
+}
+.bg{
+width: 100%;
+height: 500px;
+background-color: brown;
+
+}
+.bg img{
+  width: 100%;
+  height: 500px;
+
+
+}
+.form{
+/* background-color: aqua;  */
+height: 1100px;
+
+
+}
+.form h4{
+margin-left: 500px;
+position: relative;
+top: 100px;
+ 
+
+
+}
+.form h6{
+  margin-left: 400px;
+  position: relative;
+top: 110px;
+font-size: 20px;
+
+
+}
+.form label{
+  margin-left: 330px;
+  position: relative;
+top: 150px;
+}
+.form input{
+  margin-left: 330px;
+  position: relative;
+top: 150px;
+outline: none;
+border: none;
+border: 1px solid black;
+
+}
+.checkbox p{
+position: relative;
+top:125px;
+left: 360px;
+font-size: 15px;
+
+}
+
+.form textarea{
+margin-left:330px;
+margin-top: 150px;
+outline: none;
+border: none;
+border: 1px solid black;
+
+}
+.brand {
+  position: relative;
+   left: 360px; 
+  }
+  .brand input{
+    position: relative;
+  top: 25px;
+    right: 360px;
+
+
+  }
+  .form button{
+margin-top:110px;
+margin-left: 30px;
+background-color: black;
+outline: none;
+color: #fff;
+
+
+  }
+  
